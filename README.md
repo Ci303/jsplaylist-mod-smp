@@ -8,6 +8,12 @@ It is built from:
 
 It is not the stock SMP sample folder republished as-is.
 
+## Download Options
+
+Once published, users can either:
+- download the repository ZIP from the Git host and copy the package folder manually
+- download a ready-made release ZIP from the repository's Releases page
+
 ## Install
 
 1. Download this repository as a ZIP, or clone it.
@@ -31,6 +37,8 @@ It is not the stock SMP sample folder republished as-is.
 - [package](./package): installable SMP package folder
 - [scripts/build-release.ps1](./scripts/build-release.ps1): builds a release ZIP from the repo contents
 - [ATTRIBUTION.md](./ATTRIBUTION.md): provenance and authorship notes
+- [PUBLISHING.md](./PUBLISHING.md): remote setup and release steps
+- [.github/workflows/release.yml](./.github/workflows/release.yml): GitHub Actions release workflow
 
 ## Build Release ZIP
 
@@ -41,6 +49,11 @@ powershell -ExecutionPolicy Bypass -File .\scripts\build-release.ps1
 ```
 
 That creates a ZIP in `dist\`.
+
+## GitHub Releases
+
+If this repo is pushed to GitHub, pushing a `v*` tag triggers the workflow in
+[release.yml](./.github/workflows/release.yml), which builds the ZIP and attaches it to a GitHub Release.
 
 ## Attribution
 
