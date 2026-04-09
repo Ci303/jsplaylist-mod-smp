@@ -1,6 +1,6 @@
 {
   "author": "noswi",
-  "description": "Packaged JSPlaylist for Spider Monkey Panel built from the JSPlaylist source copy imported into this setup, with default panel properties extracted from the live theme. Original script by Br3tt, SMP port by marc2003.",
+  "description": "Packaged JSPlaylist for Spider Monkey Panel based on the jsplaylist-mod SMP sample lineage, with default panel properties extracted from the live theme. Original script by Br3tt, SMP port by marc2003.",
   "enableDragDrop": true,
   "id": "{44D1740D-A1FE-4854-86BA-44F781063A88}",
   "name": "JSPlaylist Mod",

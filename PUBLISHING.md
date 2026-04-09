@@ -4,10 +4,10 @@ This repository is ready to push to a remote Git host, but no remote URL is conf
 
 ## Before Publishing Publicly
 
-Verify that redistribution of the imported `JSPlaylist` source copy is allowed under the original upstream terms.
+Verify that redistribution of the packaged `JSPlaylist` sample-derived source is allowed under the original upstream terms.
 
 This repository packages:
-- an imported `jsplaylist` source tree
+- a `jsplaylist-mod` sample-based source tree
 - local panel-property defaults exported from the working setup
 
 It does not claim authorship of the original JSPlaylist source.

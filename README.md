@@ -3,10 +3,10 @@
 This repository packages a working `JSPlaylist` setup for foobar2000 Spider Monkey Panel.
 
 It is built from:
-- the `jsplaylist` source copy imported into the local SMP setup on this machine
+- the `jsplaylist-mod` sample lineage documented for Spider Monkey Panel
 - the live `JSPlaylist` panel properties exported from that setup
 
-It is not the stock SMP sample folder republished as-is.
+The package contents were assembled from the active local setup and repackaged for SMP package installation. It is not the untouched stock sample folder republished as-is.
 
 ## Download Options
 
@@ -60,4 +60,4 @@ If this repo is pushed to GitHub, pushing a `v*` tag triggers the workflow in
 Original JSPlaylist by Br3tt.  
 Spider Monkey Panel port and bundled-sample work by marc2003.
 
-This repo packages an imported source copy plus exported panel settings from the local foobar2000 setup in this workspace. It does not claim authorship of the original JSPlaylist source.
+This repo packages a sample-based local setup plus exported panel settings from the foobar2000 workspace on this machine. It does not claim authorship of the original JSPlaylist source.
