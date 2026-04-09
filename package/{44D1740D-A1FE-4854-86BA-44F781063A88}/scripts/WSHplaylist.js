@@ -1562,7 +1562,7 @@ oItem = function (
               blendColors(g_color_normal_txt, g_color_normal_bg, 0.35),
               this.x + cover.w + text_left_padding,
               this.y + cTrack.height * 2 - groupDelta - 2,
-              this.w - cover.w - text_left_padding * 5 + 01 - scrollbar_gape,
+              this.w - cover.w - text_left_padding * 5 + 1 - scrollbar_gape,
               cTrack.height,
               DT_RIGHT |
                 DT_VCENTER |
